@@ -1,6 +1,6 @@
 # `trame-image-tools`
 
-A set of [`trame`](https://github.com/kitware/trame) widgets to create a zoom and pan 2D image environment, with interactive area selection widgets.
+A set of [`trame`](https://github.com/kitware/trame) widgets to create a zoom and pan 2D image environment that includes interactive area selection widgets.
 
 ![demo_image](demo.png)
 
