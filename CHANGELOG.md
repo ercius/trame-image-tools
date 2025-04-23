@@ -1,6 +1,16 @@
 # CHANGELOG
 
 
+## v0.0.2 (2025-04-23)
+
+### Bug Fixes
+
+- Trigger release with another slight rewording
+  ([`d27c073`](https://github.com/Kitware/trame-image-tools/commit/d27c073e7774416e0563ebbcd1cceca82c78c5da))
+
+Signed-off-by: Patrick Avery <patrick.avery@kitware.com>
+
+
 ## v0.0.1 (2025-04-23)
 
 ### Bug Fixes
