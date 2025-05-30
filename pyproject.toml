@@ -44,6 +44,7 @@ include = ["trame.modules", "trame.widgets", "trame_image_tools"]
 
 [tool.setuptools.package-data]
 trame_image_tools = [
+    "**/*.py",
     "**/*.js",
     "**/*.css",
 ]
