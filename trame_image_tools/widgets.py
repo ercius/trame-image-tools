@@ -2,7 +2,14 @@ from trame_client.widgets.core import AbstractElement
 
 from trame_image_tools import module
 
-__all__ = ["TrameImage", "TrameImageRoi"]
+__all__ = [
+    "TrameImage",
+    "TrameImageRoi",
+    "TrameImageLine",
+    "TrameImageCircle",
+    "TrameImagePolygon",
+    "TrameImageGrid",
+]
 
 
 class HtmlElement(AbstractElement):
@@ -60,7 +67,7 @@ class TrameImage(HtmlElement):
             "center",
             "scale",
         ]
-        self._attributes["slot"] = f'v-slot="{{ { ", ".join(slot_props) } }}"'
+        self._attributes["slot"] = f'v-slot="{{ {", ".join(slot_props)} }}"'
 
 
 class TrameImageInnerWidget(HtmlElement):
